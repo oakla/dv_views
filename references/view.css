@@ -1,0 +1,43 @@
+/*.file * {
+    outline: 1px dotted red;
+}*/
+.file {
+    border-radius: var(--radius-s);
+    background-color: var(--background-primary-alt);
+    padding: 0.5rem;
+    display: grid;
+    gap: 0.5rem;
+    grid-template: "image name     " 1lh
+                   "image backlinks" auto
+                   / 100px auto;
+    will-change: transform;
+}
+.file:hover {
+    background-color: var(--background-secondary-alt);
+}
+.image {
+    border-radius: var(--radius-s);
+    max-width: 100px;
+    max-height: 100px;
+    grid-area: image;
+}
+.name a {
+    color: var(--text-faint) !important;
+    grid-area: name;
+}
+
+.backlinks {
+    grid-area: backlinks;
+}
+.backlinks a {
+    float: left;
+    clear: both;
+}
+
+.files {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+}

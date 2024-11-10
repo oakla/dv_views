@@ -1,0 +1,20 @@
+button {
+    margin: calc(var(--p-spacing)/3) 0;
+}
+
+button.left {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+button.right {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+button.center {
+    border-radius: 0;
+}
+button:hover {
+    z-index: 5;
+}
