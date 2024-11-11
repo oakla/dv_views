@@ -2,7 +2,7 @@
 
 Example scripts folder setup to enable IntelliSense in VS Code for the DataviewJS API.
 
-I had been trying to understand how I can make dataviewjs script easier to write. Eventually, I found some help on the Obsidian Discord.
+I had been trying to understand how I can make dataviewjs script easier to write. Eventually, I found some help on the Obsidian Discord from user [GottZ](https://contact.gottz.de).
 
 ### Setup Instructions
 
